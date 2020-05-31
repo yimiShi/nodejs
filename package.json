@@ -1,0 +1,23 @@
+{
+  "name": "15.nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YamingShi/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YamingShi/nodejs/issues"
+  },
+  "homepage": "https://github.com/YamingShi/nodejs#readme",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {}
+}

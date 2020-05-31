@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 2000px;
+    }
+    }
+  </style>
+</head>
+
+<body>
+
+  <input type="text">
+</body>
+
+<script>
+  let ipt = document.querySelector('input[type="text"]')
+  let body = document.body
+
+  var value = ''
+  var timer = null
+  // ipt.onkeyup = function () {
+
+  //   value = ipt.value
+  //   clearInterval(timer)
+  //   timer = setInterval(function () {
+
+  //     sendAjax(value)
+  //   }, 500)
+
+  // }
+
+  // function sendAjax(param) {
+  //   console.log(param);
+
+  // }
+
+  let flag = true
+  body.onscroll = function () {
+    console.log(1);
+
+    if (flag) {
+      console.log(1);
+      flag = false
+    }
+    setTimeout(() => {
+      flag = true
+    }, 2);
+  }
+
+  var arr = [1, 2, 3, 4]
+  console.log(Object.prototype.toString.call(arr))
+</script>
+
+</html>
