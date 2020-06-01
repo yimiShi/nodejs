@@ -11,9 +11,7 @@ app.get('/meishi', (request, response) => {
   response.send('<h1>美食界面</h1>')
 })
 
-
-app.post('/post', (request, response) => {
-})
+app.post('/post', (request, response) => {})
 
 
 app.listen(3000, (err) => {
