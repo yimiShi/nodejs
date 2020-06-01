@@ -2,13 +2,7 @@
   "name": "15.nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "express服务器.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.16",
-    "uniq": "^1.0.1"
-  },
-  "devDependencies": {},
+  "main": "node_function.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/YamingShi/nodejs.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YamingShi/nodejs/issues"
   },
-  "homepage": "https://github.com/YamingShi/nodejs#readme"
+  "homepage": "https://github.com/YamingShi/nodejs#readme",
+  "dependencies": {
+    "mongoose": "^5.9.16",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {}
 }
